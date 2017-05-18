@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Products I don't hate, dot com</title>
+        <link rel="stylesheet" href="/index.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <style media="screen">
+            body {
+                font-family: 'Helvetica', sans-serif;
+            }
+            .center {
+                margin: 0 auto;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+            }
+            .column {
+                flex-direction: column;
+            }
+            .item {
+                flex: auto;
+            }
+            .wrap {
+                flex-wrap: wrap;
+            }
+            .just-fe {
+                justify-content: flex-end;
+            }
+            .just-fs {
+                justify-content: flex-start;
+            }
+            .just-sa {
+                justify-content: space-around;
+            }
+            .just-c {
+                justify-content: center;
+            }
+            .card {
+                height: 300px;
+                width: 300px;
+                border-radius: 4px;
+                box-shadow: 2px 2px 7px rgba(0,0,0,0.1);
+                
+            }
+            .card > .image{
+                width: 300px;
+                height: 200px;
+                border-radius: 4px 4px 0 0;
+            }
+
+            .ellipsis {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .devbg {
+                background-color: rgba(0,0,0,.2);
+            }
+            .m1 {
+                margin: 1rem;
+            }
+            .m1r {
+                margin-right: 1rem;
+            }
+            .m2 {
+                margin: 1rem;
+            }
+            .ma {
+                margin: auto;
+            }
+
+            .vam {
+                vertical-align: middle;
+            }
+            .button {
+                height: 40px;
+                width: 80px;
+                text-align: center;
+                line-height: 40px;
+                vertical-align: middle;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+            .button:hover {
+                box-shadow: 2px 2px 7px rgba(0,0,0,0.1);
+            }
+            .br4 {
+            }
+
+
+        </style>
+        <div class="container just-c">
+            <div class="container m1">
+                <div class="">
+                    <img
+                        src="favicon.ico"
+                        style="margin-right:1rem"
+                        width="25px">
+                    </img>
+                </div>
+                <div class="sans" style="margin-top:0.25rem">
+                    Products I dont hate
+                </div>
+            </div>
+        </div>
+        <!-- Content area -->
+        <div class="container just-sa wrap devbg">
+
+            <div class="card m1 container column devbg">
+                <div class="image devbg"></div>
+                <div class="container just-fs">
+                    <div class="m1">
+                        Nalgene On-The-Fly Bottle
+                    </div>
+                </div>
+                <div class="container just-fe content">
+                    <a href="#">
+                        <div class="m1r"
+                            style="width: 170px;height: 2rem;">
+                            this is the description for the thing it is like
+                            ...
+                        </div>
+                    </a>
+                    <div class="button m1r devbg">
+                        Buy
+                    </div>
+                </div>
+            </div>
+            <div class="card m1 devbg">
+                <div class="image devbg"></div>
+            </div>
+            <div class="card m1 devbg">
+                <div class="image devbg"></div>
+            </div>
+            <div class="card m1 devbg">
+                <div class="image devbg"></div>
+            </div>
+            <div class="card m1 devbg">
+                <div class="image devbg"></div>
+            </div>
+            <div class="card m1 devbg">
+                <div class="image devbg"></div>
+            </div>
+            <div class="card m1 devbg">
+                <div class="image devbg"></div>
+            </div>
+            <div class="card m1 devbg">
+                <div class="image devbg"></div>
+            </div>
+            <div class="card m1 devbg">
+                <div class="image devbg"></div>
+            </div>
+        </div>
+    </body>
+</html>

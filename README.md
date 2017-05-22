@@ -1,2 +1,1 @@
-# PIDH
-Products I don't hate
+# Products I don't hate
